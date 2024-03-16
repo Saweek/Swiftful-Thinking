@@ -1,5 +1,5 @@
 /*
-    Bootcamp
+    Gradient
 */
 
 import SwiftUI
