@@ -11,6 +11,6 @@ struct Bootcamp: View {
 
 struct Bootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        TextBootcamp()
+        Bootcamp()
     }
 }
