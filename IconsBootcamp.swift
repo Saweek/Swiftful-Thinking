@@ -44,11 +44,11 @@ struct IconsBootcamp: View {
 
                 If you have an image that is multicolor and you want to use multicolority, use this method.
 
-                RenderingMode has 4 options:
+                RenderingMode has 4 value:
                     .none
                     .original
                     .some()
-                    .template
+                    .template - if you have by setting this value to RenderingMode before .resizable, you can give your !PNG! image ability to change its color. 
 
                 You are allowed to color only the main part of multicolor icons. To do that choose .original as RenderingMode and AFTER set .foregroundColor or any other color methods to the color you want.
             */
