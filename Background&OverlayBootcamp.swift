@@ -1,7 +1,7 @@
 /*
     Background&OverlayBootcamp.swift
 
-    Stuck of backgrounds go behind eachother
+    Stuck of backgrounds go behind each other
     Stuck of Overlays go in front of each other
 */
 
