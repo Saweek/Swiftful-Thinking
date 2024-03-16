@@ -43,6 +43,6 @@ struct ColorsBootcamp: View {
 
 struct ColorsBootcamp _Previews: PreviewProvider {
     static var previews: some View {
-        TextBootcamp()
+        ColorsBootcamp()
     }
 }

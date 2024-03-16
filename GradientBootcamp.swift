@@ -40,6 +40,6 @@ struct Gradient: View {
 
 struct Gradient_Previews: PreviewProvider {
     static var previews: some View {
-        TextBootcamp()
+        Gradient()
     }
 }
