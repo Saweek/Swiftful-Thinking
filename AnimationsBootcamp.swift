@@ -41,8 +41,9 @@ struct AnimationsBootcamp: View {
                     height:isAnimated ? 100 : 300)
                 .offset(y:isAnimated ? 300 : 0)
                 .animation ( // anotehr way of doing animation
-                    Animation.default
-                        .repeatForever()
+                    Animation
+                        .default // to make a custom curve look Animation Curves Bootcamp
+                        .repeatForever(autoreverses: true)
                 )
             
             Spacer()
