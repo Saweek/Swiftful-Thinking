@@ -11,6 +11,8 @@ struct PickerBootcamp: View {
         "Most Recent", "Most Popular", "Most Liked"
     ]
 
+    //it is made if we want to change teh color of the text or the color of background in the picker. SwiftUI Color doesn't support it, but UIColor does.
+    // So we just take those stuff we need from UIKit.
     init() {
         UISegmentedControl.appearance().selectedSegmentTintColor = UIColor.red
 
