@@ -26,7 +26,7 @@ struct NavigationViewBootcamp: View {
                     {
                         Image(systemName: "person.fill")
                         Image(systemName: "flame.fill")
-                    }
+                    },
                 trailing: 
                     NaviagtionLink(
                         destination: MyOtherScreen(),
