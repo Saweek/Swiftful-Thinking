@@ -6,7 +6,7 @@ import SwiftUI
 
 struct Bootcamp: View {
     var body: some View {
-        Text("Hellow, World!")
+        Text("Hello, World!")
     }
 }
 
