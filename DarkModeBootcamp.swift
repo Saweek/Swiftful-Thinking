@@ -9,7 +9,7 @@ struct DarkModeBootcamp: View {
     @Environment (\.colorScheme) var colorScheme
     var body: some View {
         NaviagtionView{
-            ScrollView(
+            ScrollView{
                 VStack (spacing: 20)
                 {
                     Text("This color is primary")
@@ -30,7 +30,7 @@ struct DarkModeBootcamp: View {
                     Text("This color is locally adaptive!")
                         .foregroundColor(colorScheme == .light ? .green : .yellow)
                 }
-            )
+            }
             .navigationTitle("Dark Mode Bootcamp")
         }
     }
