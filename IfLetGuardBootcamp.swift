@@ -19,6 +19,15 @@ struct IfLetGuardBootcamp: View {
                         .font(.title)
                 }
 
+                // OR YOU CAN DO
+
+                Text(text ?? "Here is something")
+                // so basiclly what it does
+                // it checks the text variable
+                // if there is something, then it will use it
+                // but if it is nil
+                // then its going to use the otehr information you put after ??
+
                 if isLoading {
                     ProgressView()
                 }
