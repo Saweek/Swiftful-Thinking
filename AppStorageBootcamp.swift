@@ -1,5 +1,11 @@
 /*
     AppStorageBootcamp.swift
+
+Used to store small amount of data, like: 
+    - client_id
+    - name
+    - settings
+    - etc.
 */
 
 import SwiftUI
